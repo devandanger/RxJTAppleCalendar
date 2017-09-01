@@ -64,6 +64,7 @@
 		234BFC45ACAC4A8FB945EA17B6A74B0B /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B72878F111E7710839FD9D71B42A13 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		23E2E1E02FE79EE1E1688CBBAA777297 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EC814C9B6E2DA17BC7F5F8DAE749A /* MatcherProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2448858C14772F23632A0ACA38A16C96 /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 05962C515966C7FD4FC34BEA38AAEE70 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24ED08CD3390DC400BDB6EC546024C94 /* RxJTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0CAFF88D300E94EB192A5D27DA5385 /* RxJTAppleCalendar-dummy.m */; };
 		25AD07A2DC0B857E01D92E250B28AAF6 /* Driver+Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C49FE691403C7A96EB738BB1D4206B /* Driver+Subscription.swift */; };
 		26375485D16716F318431ABDC904A7C1 /* UIImageView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DDC73539D7915750469205A692986A /* UIImageView+Rx.swift */; };
 		270F678D2242D5076936389F3811E2E9 /* UIAlertAction+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA43D79329794CB3F1E28D2AC5F4DE3 /* UIAlertAction+Rx.swift */; };
@@ -125,7 +126,7 @@
 		4D956D508362A4DB91D85C0B283CDD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411E9237B8CDD74F04A005517E311C96 /* Foundation.framework */; };
 		4E10629BE6DF18628562F84DE8CCCEBF /* RxWebViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B350E48F3E0D1A960783222F39E1153 /* RxWebViewDelegateProxy.swift */; };
 		4E1721D3A7D62BE09C711B837B8C45DF /* DelegateProxyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF04C29E83ED57EE2BB5A5B9076A179 /* DelegateProxyType.swift */; };
-		4F05818D9C98FBBA8A9570233AB7DE44 /* RxJTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD65DAC97589A0CA0DF3B2A0E3557228 /* RxJTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F05818D9C98FBBA8A9570233AB7DE44 /* RxJTAppleCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1D40933E33945A1E889D16B3E65727 /* RxJTAppleCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F3F103945CC52D0A3B8A891BB0E21C4 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1AB4F7966854008653F2DDC9E0D18 /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		4F4EE856E10FC4E220A5DD26F9F6C74E /* _RXKVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 235B8330303C24A16BEA1F3852949034 /* _RXKVOObserver.m */; };
 		4FDC25D290769E596349FE48085E3740 /* UITableView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36EB79B4D381A4646B787821DAE0468 /* UITableView+Rx.swift */; };
@@ -277,6 +278,7 @@
 		AF959CD36235B7ED9332F219627A953D /* KVORepresentable+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF342C27E237FE69A30BC5DDF8EB612 /* KVORepresentable+Swift.swift */; };
 		B093484B1637B3D3AF65DF2232FDBADC /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D97110401AE390CB99643686E05081A5 /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0B73A834534A4A7EC969FAF53ECC3CA /* UIApplication+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C93B4AAFBD7343E253EF5C0E25B30 /* UIApplication+Rx.swift */; };
+		B1208E79C5469F9C8D261160AD45CF9B /* JTAppleCalendarView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB0EC7F20E5637B8B56D4F9C067C2EA /* JTAppleCalendarView+Rx.swift */; };
 		B16BD84C5FD40DC3F167113FBB295B2A /* _RX.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA6A89F5FCFC157E0B72AE43451AB45 /* _RX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B393E91ADED730D9572103CFC5359C34 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB77FFCFF5FEBC3830FC60BFB4C0045 /* RecursiveLock.swift */; };
 		B4732CC2A45D7F6BA2F37D622FDDBBC1 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A76EFB0D4D9304B7BAF39BE4D31093 /* ScheduledItemType.swift */; };
@@ -309,7 +311,6 @@
 		C2EDF7499AFC91097F50A958127A0682 /* BooleanDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0984246BC38324AC76CEE746A9F3474 /* BooleanDisposable.swift */; };
 		C442FF5BF773FBC758EE357D3DDEAD01 /* RxSearchBarDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64147AC6BFD97F4F30C96CEC363D27EC /* RxSearchBarDelegateProxy.swift */; };
 		C46C1F1FE8F3F4AF79FBBD16A9682E88 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0BAF8775E579D66E43A60B79E1B1C6 /* NSObject+Rx.swift */; };
-		C4DE89CBE03958DE73872B4CA67E83E1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E458809C5E826CED86C43D6D6F317D3 /* ReplaceMe.swift */; };
 		C54FA6B43DFEEC4662368C8EF0E3ACE0 /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DBD832CBEC037067AA68DB2A1E0675 /* Debounce.swift */; };
 		C59BED0DB4D2AF77EBDE71C27DBBF961 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A47A0A64FD0DCB37DA76FA9E7016A7 /* TextInput.swift */; };
 		C5D9CE11EB99512845473A5DE9B53B34 /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B959CD2D548A21A73077A3167B5C93 /* _RX.m */; };
@@ -367,7 +368,6 @@
 		E9FE12C726A7379376B2A269C333E3E4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC05C09137A7409F69DD4F58B2BC577 /* Event.swift */; };
 		EBA52C16F42E42A1824D87C284F4A60C /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB9CC628AA2EFF79BA4036E04F621C /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		EC3BA80AD9C573CC08DA71C975D68634 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399E8401D6A167348AACA391DCBBC39 /* Timer.swift */; };
-		ED2403458110BBED34B730C262E4E44E /* RxJTAppleCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F35976FB41AE2BEA3DE7B5291EDD34 /* RxJTAppleCalendar-dummy.m */; };
 		EDC711AFBC04116C0C1AE9867C9374EB /* NSTextStorage+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3353507513460E37229BC9B61B0C4 /* NSTextStorage+Rx.swift */; };
 		EF515FAA9DC74F571785BE7BB46677EA /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312FD5FB9EBAA40CD84982A9B3C7A8A /* ErrorUtility.swift */; };
 		F08AA00EABF8AF0A8E589E8455F8A18B /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349450A113DA742DDEE1110596586FE1 /* DSL.swift */; };
@@ -382,6 +382,7 @@
 		F51B67407148B408F34CC4FA70EE1389 /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F45EF8B9683E1537A93A51CB48043 /* ObservableConvertibleType.swift */; };
 		F60D221B548716DF35193FC2CF244676 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2FE20AE554D5A1B2D353E13493C610 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F693D0A9E0D05F815A85DC258E75AF8D /* CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D7A3719F2C97DED9A2736C8E3DD01D /* CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F6D20B2BAD048C283EF66854CDC35211 /* RxJTAppleCalendarViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AE1403CF2589C10FC0C2F9D61F4A69 /* RxJTAppleCalendarViewProxy.swift */; };
 		F6F8453F17417273544F392A156682F6 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB944A64F1A47595A37A854AABDA6974 /* Sequence.swift */; };
 		F72ED72A579A8BFA42477D8AF75D746C /* UITextField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA09BCC5C49503EE8183169F23499028 /* UITextField+Rx.swift */; };
 		F963037A1450F74FAE911C248EED47CE /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94D0AC2791F38CACF9718B2609D890 /* UIScrollViewDelegates.swift */; };
@@ -501,6 +502,7 @@
 		0A03BDB955FBCAF57C8A6FCE224FA5F9 /* Pods-RxJTAppleCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxJTAppleCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0A8B933D7A0C504519061E5D86DBB8FF /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		0BC97FE3E9D83E14206110153D4D59B5 /* Pods-RxJTAppleCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxJTAppleCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C5C7AEFC9CDCE887322C129DD77B82B /* RxJTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxJTAppleCalendar.xcconfig; sourceTree = "<group>"; };
 		0C80403FA5D95304A050418D37070405 /* ConcurrentDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentDispatchQueueScheduler.swift; path = RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift; sourceTree = "<group>"; };
 		0D691CF4015D6D4E6BE3CEDC1EC80A6E /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
 		0D94DE488087DE7B025DDC64B07FAF2F /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = RxCocoa/Common/DelegateProxy.swift; sourceTree = "<group>"; };
@@ -539,13 +541,13 @@
 		1CA325FD56319E877F7A10732685E10F /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		1D23AF57D127E8FFB28D2DA9CB608AA6 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		1EA8ADCDF460BD571F5C12E9258AD1C4 /* UISearchController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchController+Rx.swift"; path = "RxCocoa/iOS/UISearchController+Rx.swift"; sourceTree = "<group>"; };
+		1EFD94F7624B417C2E55437286A5A6C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21B28B5E62BC9740F33B05E1F7BE37E9 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException/CwlCatchException.h; sourceTree = "<group>"; };
 		21B75B25C3FB6908989178F1E9759A80 /* RxTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTarget.swift; path = RxCocoa/Common/RxTarget.swift; sourceTree = "<group>"; };
 		235B8330303C24A16BEA1F3852949034 /* _RXKVOObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _RXKVOObserver.m; path = RxCocoa/Runtime/_RXKVOObserver.m; sourceTree = "<group>"; };
 		2382281430FBDC2E6FE3B06449E7711A /* Materialize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Materialize.swift; path = RxSwift/Observables/Materialize.swift; sourceTree = "<group>"; };
 		2442C15B6075D34FA6CB267B3E467DE5 /* CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineLatest.swift; path = RxSwift/Observables/CombineLatest.swift; sourceTree = "<group>"; };
 		24948F01EB0E50729B502FFA8DAA3C6B /* _RXObjCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _RXObjCRuntime.h; path = RxCocoa/Runtime/include/_RXObjCRuntime.h; sourceTree = "<group>"; };
-		24F35976FB41AE2BEA3DE7B5291EDD34 /* RxJTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxJTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
 		25812E596D0C3AB53D3E4BD6CA22FE10 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException/CwlCatchException.m; sourceTree = "<group>"; };
 		2656E417F24EC1EAE96864EFE642B139 /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewDelegates.swift; path = Sources/UICollectionViewDelegates.swift; sourceTree = "<group>"; };
 		26FD6F8D5BEC698EFB16680B42AA3C6F /* InvocableScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocableScheduledItem.swift; path = RxSwift/Schedulers/Internal/InvocableScheduledItem.swift; sourceTree = "<group>"; };
@@ -647,8 +649,8 @@
 		5BDEF0937316C80873FFFFABD2D462C0 /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
 		5C5E2A2C36896891668A539036B1DF9A /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
 		5CA7992CB3A1F65726018022992ABE9D /* Pods-RxJTAppleCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxJTAppleCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D1D40933E33945A1E889D16B3E65727 /* RxJTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxJTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
 		5D2F45EF8B9683E1537A93A51CB48043 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableConvertibleType.swift; path = RxSwift/ObservableConvertibleType.swift; sourceTree = "<group>"; };
-		5EC85AC17F14FA461D79D1E462D0FD50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ED95E6ECB304E81C7ADB78E78AFDB20 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		5F185E0C8156453BBAC4AA40B631F9F2 /* ImmediateScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmediateScheduler.swift; path = RxSwift/Schedulers/ImmediateScheduler.swift; sourceTree = "<group>"; };
 		6064327281D575C54FF84D8E49280CFC /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = RxSwift/Observables/Debug.swift; sourceTree = "<group>"; };
@@ -676,6 +678,7 @@
 		6B3C8F91F8FC5F8B6D4EE67AB93A2142 /* SkipWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipWhile.swift; path = RxSwift/Observables/SkipWhile.swift; sourceTree = "<group>"; };
 		6BEE7F5F84B1453DFEFFAE273006FFA7 /* KVORepresentable+CoreGraphics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KVORepresentable+CoreGraphics.swift"; path = "RxCocoa/Foundation/KVORepresentable+CoreGraphics.swift"; sourceTree = "<group>"; };
 		6C2FE20AE554D5A1B2D353E13493C610 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
+		6CB0EC7F20E5637B8B56D4F9C067C2EA /* JTAppleCalendarView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JTAppleCalendarView+Rx.swift"; path = "RxJTAppleCalendar/Classes/JTAppleCalendarView+Rx.swift"; sourceTree = "<group>"; };
 		6CC9057495AB400DE31490763E495A51 /* RxTableViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxTableViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
 		6F0EC814C9B6E2DA17BC7F5F8DAE749A /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 		701710341BA5EC63E6FA5A69A8A07E12 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
@@ -711,7 +714,6 @@
 		7D6B79F5D598384E3047A023D56BE49D /* Lock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lock.swift; path = RxSwift/Concurrency/Lock.swift; sourceTree = "<group>"; };
 		7D7661F6ECBDE2156772C3DB641A8868 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
 		7D8278C7CABEE96DA4B6AAEEFF512490 /* ReplaySubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaySubject.swift; path = RxSwift/Subjects/ReplaySubject.swift; sourceTree = "<group>"; };
-		7E458809C5E826CED86C43D6D6F317D3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RxJTAppleCalendar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		800F7B0597F940C7F43030BDA8A274C6 /* Pods-RxJTAppleCalendar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxJTAppleCalendar_Example-resources.sh"; sourceTree = "<group>"; };
 		81B3353507513460E37229BC9B61B0C4 /* NSTextStorage+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextStorage+Rx.swift"; path = "RxCocoa/iOS/NSTextStorage+Rx.swift"; sourceTree = "<group>"; };
 		81D6B2FE7AEB95A0A4F8CDF1526619DF /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
@@ -760,6 +762,7 @@
 		9B8469E843F6E2FAFFEC81205EBE548B /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		9CA39F0C004B2AAC5C07E345245AA240 /* SerialDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDispatchQueueScheduler.swift; path = RxSwift/Schedulers/SerialDispatchQueueScheduler.swift; sourceTree = "<group>"; };
 		9CCD5C81B2D752D50A7E5699FAA33973 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Rx.swift"; path = "RxCocoa/iOS/UIViewController+Rx.swift"; sourceTree = "<group>"; };
+		9D0CAFF88D300E94EB192A5D27DA5385 /* RxJTAppleCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxJTAppleCalendar-dummy.m"; sourceTree = "<group>"; };
 		9DB77FFCFF5FEBC3830FC60BFB4C0045 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
 		9FCBE9509EE79E4D061099A279C36512 /* GroupedObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupedObservable.swift; path = RxSwift/GroupedObservable.swift; sourceTree = "<group>"; };
 		A0337E8F9D1C93781FC19EA5BAF90956 /* UIButton+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Rx.swift"; path = "RxCocoa/iOS/UIButton+Rx.swift"; sourceTree = "<group>"; };
@@ -785,11 +788,11 @@
 		B0984246BC38324AC76CEE746A9F3474 /* BooleanDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanDisposable.swift; path = RxSwift/Disposables/BooleanDisposable.swift; sourceTree = "<group>"; };
 		B1B132C96C8564FF91146AC53A11107C /* RefCountDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefCountDisposable.swift; path = RxSwift/Disposables/RefCountDisposable.swift; sourceTree = "<group>"; };
 		B2F28B0ABE95CFFF5FE86B602C13593E /* ObservableConvertibleType+Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Driver.swift"; path = "RxCocoa/Traits/Driver/ObservableConvertibleType+Driver.swift"; sourceTree = "<group>"; };
-		B49204549DF692293FD010382573A668 /* RxJTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RxJTAppleCalendar.modulemap; sourceTree = "<group>"; };
 		B5562EDEA4CE0C9E0C4281DB3A25E571 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55C705FCEB3EB38B0FAA80A6EDD5262 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		B5EA3095E484A851FC5A75196D077979 /* JTAppleCalendarLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JTAppleCalendarLayout.swift; path = Sources/JTAppleCalendarLayout.swift; sourceTree = "<group>"; };
 		B606B847E1C8272CCC576DCC68FEF004 /* UITabBar+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBar+Rx.swift"; path = "RxCocoa/iOS/UITabBar+Rx.swift"; sourceTree = "<group>"; };
+		B6AE1403CF2589C10FC0C2F9D61F4A69 /* RxJTAppleCalendarViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxJTAppleCalendarViewProxy.swift; path = RxJTAppleCalendar/Classes/RxJTAppleCalendarViewProxy.swift; sourceTree = "<group>"; };
 		B6F899535C01E9DC708F439921796236 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
 		B750879FC4AA4087B9944A8537199C5C /* StartWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartWith.swift; path = RxSwift/Observables/StartWith.swift; sourceTree = "<group>"; };
 		B82F1C62A0D43C1A1F36A8D3E1401C51 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = RxSwift/Deprecated.swift; sourceTree = "<group>"; };
@@ -813,6 +816,7 @@
 		C28B6896DF58948D54CD30204CC70452 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49077E951B43CFE15245F2BA5C4048F /* RxCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxCocoa-umbrella.h"; sourceTree = "<group>"; };
 		C4F511888FF7EC7A02DB74B6BEB4B82D /* RxCollectionViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
+		C6676E592F07E89D9FB58FFA2EB7F14F /* RxJTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxJTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
 		C6896D48439865072B1551659528B593 /* Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+arity.swift"; path = "RxSwift/Observables/Zip+arity.swift"; sourceTree = "<group>"; };
 		C6DAE80800F714596E2F40EBF7D2DFFE /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
 		C7DBD832CBEC037067AA68DB2A1E0675 /* Debounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debounce.swift; path = RxSwift/Observables/Debounce.swift; sourceTree = "<group>"; };
@@ -827,6 +831,7 @@
 		CD8EBBA6FDEE89113707A12F63F8FFB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF6CD3ADF92B6D30C9CCFD2EA806DE1C /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
 		CFEF22E71F8D47F700549D715DAE4C5C /* Scan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scan.swift; path = RxSwift/Observables/Scan.swift; sourceTree = "<group>"; };
+		D025DB9F16AA7BBEF5F072CB83DCBD40 /* RxJTAppleCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RxJTAppleCalendar.modulemap; sourceTree = "<group>"; };
 		D07D6FC20A3746A73505FBD8AF9B971B /* RxCocoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RxCocoa.h; path = RxCocoa/RxCocoa.h; sourceTree = "<group>"; };
 		D0B098644F2070E565063D8A97BC8154 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		D0B21C78CF28E92F07E80588B4B81894 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -881,7 +886,6 @@
 		F0C73B59BC9CF0AA2486DDA63510F0A2 /* Cancelable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cancelable.swift; path = RxSwift/Cancelable.swift; sourceTree = "<group>"; };
 		F1E2179BD9FFD976545222374ECC4AF0 /* NotificationCenter+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationCenter+Rx.swift"; path = "RxCocoa/Foundation/NotificationCenter+Rx.swift"; sourceTree = "<group>"; };
 		F2A76D16454F9651E014687F9450FBE4 /* Pods-RxJTAppleCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxJTAppleCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F31B95563D22A0A445A5D66A45EF1AC6 /* RxJTAppleCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxJTAppleCalendar.xcconfig; sourceTree = "<group>"; };
 		F36EB79B4D381A4646B787821DAE0468 /* UITableView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Rx.swift"; path = "RxCocoa/iOS/UITableView+Rx.swift"; sourceTree = "<group>"; };
 		F3ACE03E2B2C47F30A0C9F07BE34F182 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
 		F436DC5FB4A090DBBD150714B35CC542 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
@@ -900,8 +904,6 @@
 		FC2A16CA99F853DCB7B1B76F7D5C54C7 /* ObserverType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverType.swift; path = RxSwift/ObserverType.swift; sourceTree = "<group>"; };
 		FC7E021EB88377C621BF856094D6E50A /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		FD4FD0623AFD7DE6108F70C1287D5EEA /* UINavigationController+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Rx.swift"; path = "RxCocoa/iOS/UINavigationController+Rx.swift"; sourceTree = "<group>"; };
-		FD531DA82A4DFB521F45EC0231DF251D /* RxJTAppleCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxJTAppleCalendar-prefix.pch"; sourceTree = "<group>"; };
-		FD65DAC97589A0CA0DF3B2A0E3557228 /* RxJTAppleCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxJTAppleCalendar-umbrella.h"; sourceTree = "<group>"; };
 		FD809560D6ADF85CB85F374C4E322AF1 /* UIRefreshControl+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIRefreshControl+Rx.swift"; path = "RxCocoa/iOS/UIRefreshControl+Rx.swift"; sourceTree = "<group>"; };
 		FE20F3EBF31313BD7CD8296FF440149D /* ObserverBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverBase.swift; path = RxSwift/Observers/ObserverBase.swift; sourceTree = "<group>"; };
 		FF0BAF8775E579D66E43A60B79E1B1C6 /* NSObject+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx.swift"; path = "RxCocoa/Foundation/NSObject+Rx.swift"; sourceTree = "<group>"; };
@@ -1013,6 +1015,17 @@
 			path = "../Target Support Files/RxCocoa";
 			sourceTree = "<group>";
 		};
+		15DEE860008E32CEEDED475207102539 /* RxJTAppleCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				6CB0EC7F20E5637B8B56D4F9C067C2EA /* JTAppleCalendarView+Rx.swift */,
+				B6AE1403CF2589C10FC0C2F9D61F4A69 /* RxJTAppleCalendarViewProxy.swift */,
+				78B607AFB9AC913ED596F15EF8042A42 /* Support Files */,
+			);
+			name = RxJTAppleCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		16FAF36EA5E7BD15BB84DE41DD8E06A2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1118,24 +1131,6 @@
 			);
 			name = Nimble;
 			path = Nimble;
-			sourceTree = "<group>";
-		};
-		53F7FBD6CA287FD62437F76CA7C3677B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B25707D05A455B5534C163C13200A0E /* RxJTAppleCalendar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5B25707D05A455B5534C163C13200A0E /* RxJTAppleCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				7E458809C5E826CED86C43D6D6F317D3 /* ReplaceMe.swift */,
-				B38B42CCED7D1D6B9921275D0ADC3336 /* Support Files */,
-			);
-			name = RxJTAppleCalendar;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		63E6CA7EDEADEA5DCF9447DC27466E40 /* RxSwift */ = {
@@ -1292,11 +1287,25 @@
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
+		78B607AFB9AC913ED596F15EF8042A42 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EFD94F7624B417C2E55437286A5A6C2 /* Info.plist */,
+				D025DB9F16AA7BBEF5F072CB83DCBD40 /* RxJTAppleCalendar.modulemap */,
+				0C5C7AEFC9CDCE887322C129DD77B82B /* RxJTAppleCalendar.xcconfig */,
+				9D0CAFF88D300E94EB192A5D27DA5385 /* RxJTAppleCalendar-dummy.m */,
+				C6676E592F07E89D9FB58FFA2EB7F14F /* RxJTAppleCalendar-prefix.pch */,
+				5D1D40933E33945A1E889D16B3E65727 /* RxJTAppleCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RxJTAppleCalendar";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				53F7FBD6CA287FD62437F76CA7C3677B /* Development Pods */,
+				9FE868C008B2C89FE52B11132CEEEAB2 /* Development Pods */,
 				2516861640DF1922AA1A1E84B6B8CB89 /* Frameworks */,
 				F1E85096346157A9E7F11DCCDF2C7543 /* Pods */,
 				AE9A9B072CF16FA8B2EB3DBE2A438461 /* Products */,
@@ -1336,6 +1345,14 @@
 			path = "../Target Support Files/RxSwift";
 			sourceTree = "<group>";
 		};
+		9FE868C008B2C89FE52B11132CEEEAB2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15DEE860008E32CEEDED475207102539 /* RxJTAppleCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		A1057436783CE2BA305DD97F16CB1B2F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1372,20 +1389,6 @@
 				B5562EDEA4CE0C9E0C4281DB3A25E571 /* RxSwift.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B38B42CCED7D1D6B9921275D0ADC3336 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5EC85AC17F14FA461D79D1E462D0FD50 /* Info.plist */,
-				B49204549DF692293FD010382573A668 /* RxJTAppleCalendar.modulemap */,
-				F31B95563D22A0A445A5D66A45EF1AC6 /* RxJTAppleCalendar.xcconfig */,
-				24F35976FB41AE2BEA3DE7B5291EDD34 /* RxJTAppleCalendar-dummy.m */,
-				FD531DA82A4DFB521F45EC0231DF251D /* RxJTAppleCalendar-prefix.pch */,
-				FD65DAC97589A0CA0DF3B2A0E3557228 /* RxJTAppleCalendar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RxJTAppleCalendar";
 			sourceTree = "<group>";
 		};
 		D60700F8642CFE0259AD9E7F0EEC9109 /* JTAppleCalendar */ = {
@@ -1797,7 +1800,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D447DD1F2E18E3CA8D7F93540EEE453F /* Build configuration list for PBXNativeTarget "RxJTAppleCalendar" */;
 			buildPhases = (
-				D8FB446B83D714B64F738B3FF55FD12A /* Sources */,
+				57F3BF9FFC3C1E4624D67A753726481F /* Sources */,
 				823C1A273D948C28FF1FF077DA003095 /* Frameworks */,
 				A72E9F48873BA3391A14B0428519467F /* Headers */,
 			);
@@ -2191,6 +2194,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57F3BF9FFC3C1E4624D67A753726481F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1208E79C5469F9C8D261160AD45CF9B /* JTAppleCalendarView+Rx.swift in Sources */,
+				24ED08CD3390DC400BDB6EC546024C94 /* RxJTAppleCalendar-dummy.m in Sources */,
+				F6D20B2BAD048C283EF66854CDC35211 /* RxJTAppleCalendarViewProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D5AC0418099BE9EFEA67AA7EF8A9423 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2249,15 +2262,6 @@
 				CF522FBDE2505853B78EDAF334961615 /* World+DSL.swift in Sources */,
 				AA140B681612CEE6DAD4AF24C8C9E779 /* World.swift in Sources */,
 				3F7C409EB40F072EDDC632A05C20209C /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8FB446B83D714B64F738B3FF55FD12A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4DE89CBE03958DE73872B4CA67E83E1 /* ReplaceMe.swift in Sources */,
-				ED2403458110BBED34B730C262E4E44E /* RxJTAppleCalendar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2705,7 +2709,7 @@
 		};
 		BA4915A41A03584A7955B34BA57B9582 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F31B95563D22A0A445A5D66A45EF1AC6 /* RxJTAppleCalendar.xcconfig */;
+			baseConfigurationReference = 0C5C7AEFC9CDCE887322C129DD77B82B /* RxJTAppleCalendar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2893,7 +2897,7 @@
 		};
 		ED177FB1E6502B1990603D7FE6E13376 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F31B95563D22A0A445A5D66A45EF1AC6 /* RxJTAppleCalendar.xcconfig */;
+			baseConfigurationReference = 0C5C7AEFC9CDCE887322C129DD77B82B /* RxJTAppleCalendar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
