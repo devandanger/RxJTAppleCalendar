@@ -39,5 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'RxSwift', '~> 3.0'
+  s.dependency 'RxCocoa', '~> 3.0'
   s.dependency 'JTAppleCalendar', '~> 7.0.6'
 end

@@ -23,6 +23,9 @@
     "RxSwift": [
       "~> 3.0"
     ],
+    "RxCocoa": [
+      "~> 3.0"
+    ],
     "JTAppleCalendar": [
       "~> 7.0.6"
     ]
