@@ -1,0 +1,22 @@
+{
+  "name": "RxJTAppleCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of RxJTAppleCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Evan Anger/RxJTAppleCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Evan Anger": "devandanger@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Evan Anger/RxJTAppleCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RxJTAppleCalendar/Classes/**/*"
+}

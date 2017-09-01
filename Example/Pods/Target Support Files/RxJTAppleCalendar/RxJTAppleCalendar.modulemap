@@ -1,0 +1,6 @@
+framework module RxJTAppleCalendar {
+  umbrella header "RxJTAppleCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
