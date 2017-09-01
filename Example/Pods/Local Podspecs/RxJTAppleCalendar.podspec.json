@@ -16,7 +16,15 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "RxJTAppleCalendar/Classes/**/*"
+  "source_files": "RxJTAppleCalendar/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 3.0"
+    ],
+    "JTAppleCalendar": [
+      "~> 7.0.6"
+    ]
+  }
 }
